@@ -16,5 +16,18 @@ public class Konsolenausgabe {
         System.out.println("*************");
         System.out.println("     ***     ");
         System.out.println("     ***     ");
+
+        //Code für Aufgabe 3
+        double zahl1 = 22.4234234;
+        double zahl2 = 111.2222;
+        double zahl3 = 4.0;
+        double zahl4 = 1000000.551;
+        double zahl5 = 97.34;
+
+        System.out.printf("%.2f\n", zahl1);
+        System.out.printf("%.2f\n", zahl2);
+        System.out.printf("%.2f\n", zahl3);
+        System.out.printf("%.2f\n", zahl4);
+        System.out.printf("%.2f\n", zahl5);
     }
 }
